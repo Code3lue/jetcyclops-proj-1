@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: #bbe3e3;
+	position: relative;
+}
+
+.logo {
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+	background-color: #eabfea;
+	border-radius: 15px;
+	position: relative;
+}
+
+main {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 41px;
+	position: absolute;
+	right: 208px;
+	top:7px;
+}
+
+#team {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 12px;
+	position: absolute;
+	right: -20px;
+	top: 45px;
+}	
+
+.mapper {
+	margin: 0 auto;
+}
+
+#maps {
+	border-style: solid;
+	color: #3d3d29;
+	border-width: 5px;
+	margin-left:30px;	
+}
+
+.tools {
+	background-color: grey;
+	margin-top: 10px;
+}
+
+.buttons {
+	margin-left: 36px;
+}
