@@ -78,6 +78,13 @@ main {
     margin: 15px;
     padding: 5px;
 }
+    
+#map {
+     height: 350px;
+     width: 525px;
+    
+}
+
 
 .footer {
     text-align: center;
