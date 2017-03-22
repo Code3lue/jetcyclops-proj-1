@@ -78,10 +78,13 @@ main {
    margin: 15px;
    padding: 5px;
 }
-   
+
+    
 #map {
-    height: 100px;
-   width: 50px;
+     height: 350px;
+     width: 525px;
+    
+
 }
 
 
