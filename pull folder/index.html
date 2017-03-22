@@ -3,31 +3,15 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-
-	<title>Find Your Space</title>
-
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker" rel="stylesheet"> <!--logo-->
-
-
-<head>
     <meta charset="UTF-8">
     <title>Spacely</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="class1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRVi4Uhx1M_P8Hp4Hm5qAMDVo1wSxdcKw&callback=initMap" async defer></script>
     <!--logo-->
 </head>
 
@@ -41,9 +25,9 @@
                     <h4 class="modal-title" id="myModalLabel">Define Your Space Today...</h4>
                 </div>
                 <div class="modal-body">
-                    <a href="study.html"><img src="assets/images/study.jpg" class="social" alt="Study" /></a>                                       
-                    <a href="meditate.html"><img src="assets/images/meditation.jpeg" class="social" alt="Meditation" /></a>
-                    <a href="events.html"><img src="assets/images/social.jpeg" class="social" alt="Events" /></a>
+                    <input type="image" src="social.jpeg" name="social" class="btTxt socialSubmit" id="saveForm" />
+                    <input type="image" src="study.jpg" name="study" class="btTxt studySubmit" id="saveForm" />
+                    <input type="image" src="meditation.jpeg" name="meditation" class="btTxt meditationSubmit" id="saveForm" />
                 </div>
                 <div class="modal-footer">
                     <form class="form-inline">
@@ -62,7 +46,7 @@
         </div>
     </div>
     <div class="container-fluid logo">
-        <img src="assets/images/study1.jpg" class="">
+        <img src="study1.jpg" class="">
         <div class="username">
             <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">JetCyclops</a></p>
         </div>
@@ -87,13 +71,13 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Spaces <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="events.html">Events</a></li>
-                                    <li><a href="study.html">Study Spaces</a></li>
-                                    <li><a href="meditate.html">Meditation Spaces</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Study Spaces</a></li>
+                                    <li><a href="#">Meditation Spaces</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Account</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="jetcyclops@gmail.com">Contact Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -111,8 +95,8 @@
             <div class="row col-lg-7 liveFeed">
                 Live Feed/CHAT .... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend ultricies lorem ut condimentum. Donec luctus blandit rutrum. Donec sapien felis, fermentum mattis scelerisque cursus, viverra vel eros. Sed venenatis metus dignissim ex tincidunt, a ornare velit tempor. Mauris eu ex nisl. Pellentesque nec libero sed nisi condimentum bibendum. Nulla mi tellus, efficitur ut leo vel, interdum bibendum arcu. Donec</div>
         </div>
-        <div class="row col-lg-5 map" id="map">
-            
+        <div class="row col-lg-5 map">
+            <img src="map.gif">
         </div>
         <div class="row col-lg-6">
             <div class="actions">
@@ -130,5 +114,5 @@
                 <p>JetCyclops 2017</p>
             </footer>
         </div>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script type="text/javascript" src="js.js"></script>
 </body>
