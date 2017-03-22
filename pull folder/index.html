@@ -3,26 +3,11 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-
-	<title>Find Your Space</title>
-
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker" rel="stylesheet"> <!--logo-->
-
-
-<head>
     <meta charset="UTF-8">
     <title>Spacely</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="class1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -40,9 +25,9 @@
                     <h4 class="modal-title" id="myModalLabel">Define Your Space Today...</h4>
                 </div>
                 <div class="modal-body">
-                    <a href="study.html"><img src="assets/images/study.jpg" class="social" alt="Study" /></a>                                       
-                    <a href="meditate.html"><img src="assets/images/meditation.jpeg" class="social" alt="Meditation" /></a>
-                    <a href="events.html"><img src="assets/images/social.jpeg" class="social" alt="Events" /></a>
+                    <input type="image" src="social.jpeg" name="social" class="btTxt socialSubmit" id="saveForm" />
+                    <input type="image" src="study.jpg" name="study" class="btTxt studySubmit" id="saveForm" />
+                    <input type="image" src="meditation.jpeg" name="meditation" class="btTxt meditationSubmit" id="saveForm" />
                 </div>
                 <div class="modal-footer">
                     <form class="form-inline">
@@ -61,7 +46,7 @@
         </div>
     </div>
     <div class="container-fluid logo">
-        <img src="assets/images/study1.jpg" class="">
+        <img src="study1.jpg" class="">
         <div class="username">
             <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">JetCyclops</a></p>
         </div>
@@ -129,5 +114,5 @@
                 <p>JetCyclops 2017</p>
             </footer>
         </div>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script type="text/javascript" src="js.js"></script>
 </body>
