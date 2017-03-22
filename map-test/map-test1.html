@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 500px;
+        width: 500px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+    // establishes where the map will begin before any input  	
+      	var sav = {lat: 32.080695, lng: -81.093864}
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: sav,
+          zoom: 16
+        });
+
+    // makes a marker at the position, sav; on the map, map; 
+        var marker = new google.maps.Marker({
+          position: sav,
+          map: map
+        });
+    marker.setMap(map);    
+
+    // makes an info window with text    
+        var infoWindowOptions = {
+        	content: 'Check out this cool place!'
+        };
+    // assigns the google maps function for windows to the var infoWindow (I think)    
+        var infoWindow = new google.maps.InfoWindow(infoWindowOptions);
+    // makes it so the marker will pull up the info window when clicked   
+        google.maps.event.addListener(marker, 'click', function(e){
+        	infoWindow.open(map, marker);
+        })
+
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRVi4Uhx1M_P8Hp4Hm5qAMDVo1wSxdcKw&callback=initMap"
+    async defer></script>
+  </body>
+</html>
+
